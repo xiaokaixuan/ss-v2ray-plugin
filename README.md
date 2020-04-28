@@ -6,10 +6,10 @@
 
 ![](https://raw.githubusercontent.com/xiaokaixuan/ss-v2ray-plugin/master/android.png)
 
-> 3. 部署到VPS时，指明`DOMAIN`和映射`.acme.sh`可开启TLS。
+> 3. 部署到VPS时，域名变量`DOMAIN`和映射`/root/.acme.sh`可开启TLS。
 > ```sh
-> .acme.sh/{domain}/fullchain.cer
-> .acme.sh/{domain}/{domain}.key
+> /root/.acme.sh/{domain}/fullchain.cer
+> /root/.acme.sh/{domain}/{domain}.key
 > ```
 
 ### 附加
